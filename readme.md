@@ -1,7 +1,6 @@
 # Aplicación de Prueba
-# PokemonShowDon
 
-Este proyecto utiliza [Playwright](https://playwright.dev/) para automatizar pruebas de la aplicación Pokemon Showdown, incluyendo la creación y validación de equipos de Pokémon.
+Este proyecto utiliza [Playwright](https://playwright.dev/) para automatizar pruebas de la aplicación.
 
 ## Estructura del Proyecto
 
