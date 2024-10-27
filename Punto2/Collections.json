@@ -1,0 +1,83 @@
+{
+	"info": {
+		"_postman_id": "e8382e77-b0c8-4b81-bc09-9847c6b5eaaf",
+		"name": "Taller 3 - punto 2 - testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "12889726"
+	},
+	"item": [
+		{
+			"name": "Look Asteroid By SPK-ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/neo/rest/v1/neo/3005818?api_key=f9XgUSzHDT70Wm3MIL1zHWY75RmcZ8FICPlPVffJ",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"neo",
+						"rest",
+						"v1",
+						"neo",
+						"3005818"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "f9XgUSzHDT70Wm3MIL1zHWY75RmcZ8FICPlPVffJ"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Open Science Data Repository Public API",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Mars Weather Service API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/insight_weather/?api_key={{api_key}}&feedtype={{feedtype}}&ver={{version}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"insight_weather",
+						""
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "{{api_key}}"
+						},
+						{
+							"key": "feedtype",
+							"value": "{{feedtype}}"
+						},
+						{
+							"key": "ver",
+							"value": "{{version}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

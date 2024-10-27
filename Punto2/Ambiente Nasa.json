@@ -1,0 +1,87 @@
+{
+	"id": "2b576b7c-ebc0-4390-9187-b3b8b356c27e",
+	"name": "Ambiente Nasa",
+	"values": [
+		{
+			"key": "api_key",
+			"value": "f9Xg*******************J",
+			"type": "secret",
+			"enabled": true
+		},
+		{
+			"key": "asteroid_id",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "URL",
+			"value": "https://api.nasa.gov",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "sol",
+			"value": "1500",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "camera",
+			"value": "CHEMCAM",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "page",
+			"value": "1",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "date",
+			"value": "2020-1015",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "feedtype",
+			"value": "json",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "version",
+			"value": "1.0",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "OSD_STUDY_IDs",
+			"value": "",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "CURRENT_PAGE_NUMBER",
+			"value": "0",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "RESULTS_PER_PAGE",
+			"value": "5",
+			"type": "default",
+			"enabled": true
+		},
+		{
+			"key": "ALL_FILES",
+			"value": "false",
+			"type": "default",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2024-10-27T01:03:23.080Z",
+	"_postman_exported_using": "Postman/11.18.0-241015-0634"
+}
